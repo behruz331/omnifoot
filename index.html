@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omnifood Navbar</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container">
+     <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="omnifood-logo.png" alt="Omnifood Logo" class="logo-img" />
+    </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav align-items-center gap-4">
+          <li class="nav-item"><a class="nav-link fw-semibold text-dark" href="#">How it works</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold text-dark" href="#">Meals</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold text-dark" href="#">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold text-dark" href="#">Pricing</a></li>
+        </ul>
+        <a href="#" class="btn btn-orange ms-4">Try for free</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+<section class="hero-section">
+  <div class="container d-flex align-items-center justify-content-between flex-wrap-reverse">
+    <div class="hero-text">
+      <h1>A healthy meal<br>delivered to your door,<br>every single day</h1>
+      <p>
+        The smart 365-days-per-year food subscription that will make you eat healthy again. 
+        Tailored to your personal tastes and nutritional needs.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-orange">Start eating well</a>
+        <a href="#" class="btn btn-light">Learn more ↓</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="hero (1).webp" alt="Hero Image" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<section class="featured-section text-center py-5">
+  <p class="text-uppercase text-secondary fw-semibold mb-4">As featured in</p>
+  <div class="container">
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-auto"><img src="business-insider.png" alt="TechCrunch" class="featured-logo" /></div>
+      <div class="col-auto"><img src="usa-today.png" alt="Business Insider" class="featured-logo" /></div>
+      <div class="col-auto"><img src="the-new-york-times.png" alt="The New York Times" class="featured-logo" /></div>
+      <div class="col-auto"><img src="techcrunch.png" alt="Forbes" class="featured-logo" /></div>
+      <div class="col-auto"><img src="forbes.png" alt="USA Today" class="featured-logo" /></div>
+    </div>
+  </div>
+</section>
+<section class="how-it-works py-5">
+  <div class="container text-center">
+    <h6 class="text-uppercase text-warning fw-semibold">How it works</h6>
+    <h2 class="fw-bold mb-5">Your daily dose of health in 3 simple steps</h2>
+
+    <!-- Step 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 text-md-end order-md-1">
+        <img src="app-screen-1.png" alt="Step 1" class="img-fluid step-img" />
+      </div>
+      <div class="col-md-6 text-md-start order-md-0">
+        <span class="step-number">01</span>
+        <h4 class="fw-bold">Tell us what you like (and what not)</h4>
+        <p>
+          Never again waste time thinking about what to eat! Omnifood AI will create a
+          100% personalized weekly meal plan just for you. It makes sure you get all
+          the nutrients and vitamins you need, no matter what diet you follow!
+        </p>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 text-md-end">
+        <span class="step-number">02</span>
+        <h4 class="fw-bold">Approve your weekly meal plan</h4>
+        <p>
+          Once per week, approve the meal plan generated for you by Omnifood AI.
+          You can change ingredients, swap entire meals, or even add your own recipes.
+        </p>
+      </div>
+      <div class="col-md-6 text-md-start">
+        <img src="app-screen-2.png" alt="Step 2" class="img-fluid step-img" />
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="row align-items-center">
+      <div class="col-md-6 text-md-end order-md-1">
+        <img src="app-screen-3.png" alt="Step 3" class="img-fluid step-img" />
+      </div>
+      <div class="col-md-6 text-md-start order-md-0">
+        <span class="step-number">03</span>
+        <h4 class="fw-bold">Receive meals at convenient time</h4>
+        <p>
+          Best chefs in town will cook your selected meal every day, and we will deliver
+          it to your door whenever works best for you. You can change delivery schedule
+          and address daily!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="meals py-5">
+  <div class="container text-center">
+    <h6 class="text-uppercase text-warning fw-semibold">Meals</h6>
+    <h2 class="fw-bold mb-5">Omnifood AI chooses from 5,000+ recipes</h2>
+
+    <div class="row justify-content-center">
+      <!-- Meal 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="meal-1.jpg" class="card-img-top" alt="Japanese Gyozas">
+          <div class="card-body text-start">
+            <div class="mb-2">
+            </div>
+            <h5 class="fw-bold">Japanese Gyozas</h5>
+            <ul class="list-unstyled small mb-2">
+              <li>🍽️ 650 calories</li>
+              <li>⚖️ NutriScore ® <strong>74</strong></li>
+              <li>⭐ 4.9 rating (537)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meal 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="meal-2.jpg" class="card-img-top" alt="Avocado Salad">
+          <div class="card-body text-start">
+            <div class="mb-2">
+            </div>
+            <h5 class="fw-bold">Avocado Salad</h5>
+            <ul class="list-unstyled small mb-2">
+              <li>🍽️ 400 calories</li>
+              <li>⚖️ NutriScore ® <strong>92</strong></li>
+              <li>⭐ 4.8 rating (441)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diet types -->
+      <div class="col-md-4 text-start">
+        <h5 class="fw-bold mb-3">Works with any diet:</h5>
+        <ul class="list-unstyled">
+          <li>✔ Vegetarian</li>
+          <li>✔ Vegan</li>
+          <li>✔ Pescatarian</li>
+          <li>✔ Gluten-free</li>
+          <li>✔ Lactose-free</li>
+          <li>✔ Keto</li>
+          <li>✔ Paleo</li>
+          <li>✔ Low FODMAP</li>
+          <li>✔ Kid-friendly</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <a href="#" class="text-decoration-none text-warning fw-semibold">See all recipes →</a>
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Chap taraf: Testimonials -->
+      <div class="col-lg-6">
+        <h5 class="text-uppercase text-warning">Testimonials</h5>
+        <h2 class="fw-bold mb-4">Once you try it, you can't go back</h2>
+        
+        <div class="mb-4">
+          <p>❝ Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. ❞</p>
+          <small class="text-muted">— Dave Bryson</small>
+        </div>
+        <div class="mb-4">
+          <p>❝ The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! ❞</p>
+          <small class="text-muted">— Ben Hadley</small>
+        </div>
+        <div class="mb-4">
+          <p>❝ Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! ❞</p>
+          <small class="text-muted">— Steve Miller</small>
+        </div>
+        <div>
+          <p>❝ I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. ❞</p>
+          <small class="text-muted">— Hannah Smith</small>
+        </div>
+      </div>
+
+      <!-- O'ng taraf: 12 ta rasm -->
+      <div class="col-lg-6">
+        <div class="row g-2">
+          <div class="col-4"><img src="gallery-1.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-2.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-3.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-10.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-11.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-12.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-4.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-5.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-6.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-7.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-8.jpg" class="img-fluid rounded" alt="meal"></div>
+          <div class="col-4"><img src="gallery-9.jpg" class="img-fluid rounded" alt="meal"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container text-center">
+    <h6 class="text-uppercase text-warning">Pricing</h6>
+    <h2 class="fw-bold mb-5">Eating well without breaking the bank</h2>
+
+    <div class="row justify-content-center mb-5">
+      <!-- Starter Plan -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-4 shadow-sm h-100">
+          <h5 class="text-warning">STARTER</h5>
+          <h1 class="display-4">$399</h1>
+          <p class="text-muted">per month. That's just $13 per meal!</p>
+          <ul class="list-unstyled my-4 text-start">
+            <li>✔ 1 meal per day</li>
+            <li>✔ Order from 11am to 9pm</li>
+            <li>✔ Delivery is free</li>
+            <li>❌ Access to latest recipes</li>
+          </ul>
+          <a href="#" class="btn btn-warning text-white">Start eating well</a>
+        </div>
+      </div>
+
+      <!-- Complete Plan -->
+      <div class="col-md-5 mb-3">
+        <div class="card p-4 shadow-sm h-100 bg-light border-warning position-relative">
+          <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">BEST VALUE</span>
+          <h5 class="text-warning">COMPLETE</h5>
+          <h1 class="display-4">$649</h1>
+          <p class="text-muted">per month. That's just $11 per meal!</p>
+          <ul class="list-unstyled my-4 text-start">
+            <li>✔ <strong>2 meals</strong> per day</li>
+            <li>✔ Order <strong>24/7</strong></li>
+            <li>✔ Delivery is free</li>
+            <li>✔ Get access to latest recipes</li>
+          </ul>
+          <a href="#" class="btn btn-warning text-white">Start eating well</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer icons/features -->
+    <div class="row text-center">
+      <div class="col-md-3 mb-4">
+        <div class="mb-2 fs-1">♾</div>
+        <h6 class="fw-bold">Never cook again!</h6>
+        <p class="text-muted">Our subscriptions cover 365 days per year, even including major holidays.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-2 fs-1">🍎</div>
+        <h6 class="fw-bold">Local and organic</h6>
+        <p class="text-muted">Our cooks only use local, fresh, and organic products to prepare your meals.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-2 fs-1">🍃</div>
+        <h6 class="fw-bold">No waste</h6>
+        <p class="text-muted">All our partners only use reusable containers to package all your meals.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-2 fs-1">⏸</div>
+        <h6 class="fw-bold">Pause anytime</h6>
+        <p class="text-muted">Going on vacation? Just pause your subscription, and we refund unused days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3">Get your first meal for free!</h2>
+        <p class="mb-4">
+          Healthy, tasty and hassle-free meals are waiting for you. You can cancel or pause anytime. First meal is free!
+        </p>
+        <form class="row g-2">
+          <div class="col-12">
+            <input type="text" class="form-control" placeholder="Full Name" required>
+          </div>
+          <div class="col-12">
+            <input type="email" class="form-control" placeholder="Email Address" required>
+          </div>
+          <div class="col-12">
+            <select class="form-select" required>
+              <option selected disabled>How did you hear about us?</option>
+              <option>Friends</option>
+              <option>Ads</option>
+              <option>Podcast</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-warning text-white w-100">Sign up now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-light py-5 border-top">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo and social -->
+      <div class="col-md-3">
+        <img src="omnifood-logo.png" alt="Omnifood Logo" style="max-width: 150px;" class="mb-3">
+        <div class="d-flex gap-3">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+        </div>
+        <small class="d-block mt-3 text-muted">
+          &copy; 2025 by Omnifood, Inc. All rights reserved.
+        </small>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3">
+        <h6 class="fw-bold">Contact us</h6>
+        <p class="mb-1">623 Harrison St., 2nd Floor, <br> San Francisco, CA 94107</p>
+        <p class="mb-1">415-201-6370</p>
+        <p>hello@omnifood.com</p>
+      </div>
+
+      <!-- Account -->
+      <div class="col-md-2">
+        <h6 class="fw-bold">Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Create account</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">iOS app</a></li>
+          <li><a href="#">Android app</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="col-md-2">
+        <h6 class="fw-bold">Company</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">About Omnifood</a></li>
+          <li><a href="#">For Business</a></li>
+          <li><a href="#">Cooking partners</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-md-2">
+        <h6 class="fw-bold">Resources</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Recipe directory</a></li>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Privacy & terms</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+

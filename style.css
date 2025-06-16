@@ -1,0 +1,157 @@
+body {
+  background-color: #fff3e4;
+}
+
+.custom-navbar {
+  background-color: #fff3e4;
+  padding: 20px 0;
+}
+
+.infinity-icon {
+  color: #e67e22;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.btn-orange {
+  background-color: #e67e22;
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background-color: #cf711f;
+  color: white;
+}
+.logo-img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.hero-section {
+  background-color: #fff4e6;
+}
+
+.btn-orange {
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #cf711f;
+  color: white;
+}
+
+.hero-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img-small {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.hero-img-large {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.featured-section {
+  background-color: #fdf2e9;
+}
+
+.featured-logo {
+  height: 32px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.featured-logo:hover {
+  opacity: 1;
+}
+.how-it-works {
+  background-color: #fdf2e9;
+}
+
+.step-number {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ddd;
+  display: block;
+}
+
+.step-img {
+  max-width: 250px;
+}
+.meals {
+  background-color: #fdf2e9;
+}
+
+.meals .badge {
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+.meals ul li {
+  margin-bottom: 0.3rem;
+}
+.hero-section {
+  background-color: #fff3e0;
+  padding: 60px 0;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2e2e2e;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+  margin-right: 15px;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-orange {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+}
+
+.btn-light {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  width: 450px; /* yoki 500px, istagingizga qarab */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+    
